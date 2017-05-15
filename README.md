@@ -2,6 +2,7 @@
 Collect any resource metric from vRealize Operations Manager using REST API and python client
 
 Purpose: 
+
 This is a small program to collect metric data of a "resource/set of resources" from vRealize Operations Manager using python client and REST API. This can collect a single value of the metric or a series of historical values.
 
 What is included:
@@ -22,12 +23,19 @@ Part 1: Setting up the environment:
 First time run set-config.py with #python set-config.py, this will ask for the following inputs:
 
 Adapter Kind: 
+
 Resource Kind: 
+
 vROPs server IP/FQDN: 
+
 user id: 
+
 vROps password: 
+
 Maximum number of samples to collect:
+
 Number of Keys to Monitor: Keys (one by one):
+
 
 Once all the above information is provided, the script generates config.json in the same location. The provided password is saved in encrypted format.
 
