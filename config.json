@@ -1,0 +1,18 @@
+{
+  "adapterKind":"VMware",
+  "keys":[
+    "guestfilesystem|capacity_total",
+    "cpu|capacity_provisioned",
+    "cpu|numberToRemove",
+    "cpu|numberToAdd",
+    "cpu|demandmhz",
+    "guestfilesystem|usage_total"
+  ],
+  "resourceKind":"VirtualMachine",
+  "sampleno":3,
+  "server":{
+    "name":"test-vrops-server",
+    "password":"test-password",
+    "userid":"test-user"
+  }
+}
