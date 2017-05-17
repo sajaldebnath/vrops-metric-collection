@@ -25,7 +25,7 @@ def get_the_inputs():
     serveruid = raw_input("Please enter user id: ")
     serverpasswd = raw_input("Please enter vRops password: ")
     encryptedvar = base64.b64encode(serverpasswd)
-    maxsamples = raw_input("Please enter the maximum number of samples to collect (default 1): ")
+    maxsamples = raw_input("Please enter the maximum number of samples to collect: ")
 
     keys_to_monitor = raw_input("Please enter the number of keys to monitor: ")
 
